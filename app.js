@@ -28,6 +28,7 @@ const showAlert = (message, type) => {
   }, 2000);
 };
 
+
 const saveTolocalstorage = () => {
   localStorage.setItem("todos", JSON.stringify(todos));
 };
